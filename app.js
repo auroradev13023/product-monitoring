@@ -871,7 +871,7 @@ function renderSettings() {
           </label>
           <div class="form-group" style="margin-top:12px">
             <label class="form-label">Proxy List <span class="muted-text">(one per line: host:port or host:port:user:pass)</span></label>
-            <textarea class="form-control" id="s-proxies" rows="5" placeholder="192.168.1.1:8080&#10;proxy.example.com:3128:user:pass">${esc(S.settings.proxyList)}</textarea>
+            <textarea class="form-control" id="s-proxies" rows="5" placeholder="xx.xx.xx.xx:8080&#10;proxy.example.com:3128:user:pass">${esc(S.settings.proxyList)}</textarea>
           </div>
         </div>
       </div>
